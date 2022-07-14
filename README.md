@@ -1,4 +1,10 @@
-In `config` folder, open `database.yml` file and Update Application name with `app_name` on line 28, 62, 86, 87 & also in UpperCase `APP_NAME` on line 88
+- In `config` folder, open `database.yml` file and Add on line 23, 24, UserName of Database and Password (In my case, in pgAdmin).
+```
+  username: postgres
+  password: 12345
+```
+
+- Update Application name with `app_name` on line 28, 62, 86, 87 & also in UpperCase `APP_NAME` on line 88.
 
 ##### Initialize a DB:
 ```
